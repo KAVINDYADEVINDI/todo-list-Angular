@@ -1,1 +1,13 @@
-<p>todo works!</p>
+<div class="jumbotron" style="padding: 45px 0px">
+  <div class="text-center">To Do List App</div>
+</div>
+
+<div class="input-group">
+    <input type="text" class="form-control" #itemTitle>
+    
+    <div class="input-group-addon hover-cursor" (click)="onAdd(itemTitle)">
+        <i class="fa fa-plus-circle fa-2x">add</i>
+        <fa-icon [icon]="faCoffee"></fa-icon>
+    </div>
+    
+</div>
