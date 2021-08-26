@@ -8,9 +8,10 @@ import { CourseComponent } from './course.component';
 
 import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
+import { TodoComponent } from './todo/todo.component';
 
 @NgModule({
-  declarations: [AppComponent, CourseComponent],
+  declarations: [AppComponent, CourseComponent, TodoComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
