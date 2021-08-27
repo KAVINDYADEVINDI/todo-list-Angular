@@ -9,12 +9,14 @@ import { CourseComponent } from './course.component';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
 import { TodoComponent } from './todo/todo.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [AppComponent, CourseComponent, TodoComponent],
   imports: [
-    FontAwesomeModule,
+    MatButtonModule,
+    MatCardModule,
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
