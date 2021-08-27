@@ -1,6 +1,6 @@
 import { TodoService } from './shared/todo.service';
 import { Component, OnInit } from '@angular/core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-todo',
@@ -10,7 +10,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 })
 export class TodoComponent implements OnInit {
   toDoListArray: any[] = [];
-  faCoffee = faCoffee;
+  
 
   constructor(private ToDoService: TodoService) {}
 
