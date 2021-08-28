@@ -1,6 +1,21 @@
-.text{
-    text-align: center;
-    color: rgb(65, 65, 155);
-    font-size: large;
-    padding: 20px;
+.text {
+  text-align: center;
+  color: rgb(65, 65, 155);
+  font-size: large;
+  padding: 20px;
+}
+.card {
+  margin: 10px;
+  width: 500px;
+  text-align: center;
+}
+.card-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input{
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
