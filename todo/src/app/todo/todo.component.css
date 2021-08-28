@@ -1,10 +1,13 @@
 .text {
   font-family: "Pacifico";
-  text-shadow: 2px 3px rgb(123, 123, 126);
+  text-shadow: 2px 3px rgb(85, 85, 99);
   text-align: center;
   color: rgb(65, 65, 155);
   font-size: 40px;
   padding: 20px;
+}
+.checkbox{
+    color:blue;
 }
 .card {
   margin: 10px;

@@ -13,10 +13,12 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [AppComponent, TodoComponent],
   imports: [
+    MatCheckboxModule,
     MatInputModule,
     MatIconModule,
     MatButtonModule,
