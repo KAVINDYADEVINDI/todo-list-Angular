@@ -1,7 +1,9 @@
 .text {
+  font-family: "Pacifico";
+  text-shadow: 2px 3px rgb(123, 123, 126);
   text-align: center;
   color: rgb(65, 65, 155);
-  font-size: large;
+  font-size: 40px;
   padding: 20px;
 }
 .card {
@@ -10,12 +12,12 @@
   text-align: center;
 }
 .card-container {
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.input{
-    display: flex;
+.input {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
