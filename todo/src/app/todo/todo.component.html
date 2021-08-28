@@ -1,27 +1,18 @@
-<div class="jumbotron" style="padding: 45px 0px">
+<div class="text">
   <div class="text-center">To Do List App</div>
 </div>
 
-<div class="input-group">
-  <input type="text" class="form-control" #itemTitle />
-
-  <div class="input-group-addon hover-cursor" (click)="onAdd(itemTitle)">
-    <i class="fa fa-plus-circle fa-2x">add</i>
-  </div>
-  
-
-</div>
-<mat-form-field appearance="fill">
+<mat-form-field style="margin-left: 500px;" appearance="fill">
   <mat-label>Input</mat-label>
-  <input matInput>
+  <input matInput #itemTitle>
 </mat-form-field>
-<mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
-<mat-card style="margin: 100px;">
+
+<mat-icon aria-hidden="false" aria-label="Example home icon" (click)="onAdd(itemTitle)">home</mat-icon>
+
+<mat-card style="margin-left: 100px;">
   <mat-card-content >
     <p>
-      The Shiba Inu is the smallest of the six original and distinct spitz
-      breeds of dog from Japan. A small, agile dog that copes very well with
-      mountainous terrain, the Shiba Inu was originally bred for hunting.
+      The Shiba Inu is the smallest.
     </p>
   </mat-card-content>
   <mat-card-actions>
