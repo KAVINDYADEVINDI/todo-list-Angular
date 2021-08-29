@@ -21,7 +21,7 @@ export class TodoComponent implements OnInit {
         this.toDoListArray = [];
         item.forEach((data) => {
           var x = data.payload.toJSON();
-          //x["$key"]=data.key;
+          //x[$key]=data.key;
           this.toDoListArray.push(x);
         });
 
